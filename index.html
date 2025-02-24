@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarGuy Poster Download</title>
+
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            width: 100%;
+            background-color: #c19a6b;
+            padding: 15px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu {
+            font-size: 24px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .home {
+            width: 30px;
+            height: 30px;
+            fill: white;
+            cursor: pointer;
+        }
+
+        /* Page Content */
+        .container {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+        }
+
+        /* Logo */
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #654321;
+        }
+
+        /* Form */
+        form {
+            margin-top: 20px;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        #message {
+            margin-top: 15px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="menu">☰</div>  <!-- Hamburger Menu (Top Left) -->
+        <a href="index.html">
+            <svg class="home" viewBox="0 0 24 24">
+                <path d="M12 3l8 8h-3v7h-4v-5h-2v5H7v-7H4z"/>
+            </svg>
+        </a>  <!-- Professional Home Icon -->
+    </div>
+
+    <div class="container">
+        <!-- CarGuy Logo -->
+        <img src="CarGuy._20250126_200542_0000.png" alt="CarGuy Logo" class="logo">
+
+        <h1>Get Your First Free Poster!</h4>
+        <h2>Lamborghini Huracán STO</h3>
+
+
+    <script>
+        document.getElementById("emailForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            document.getElementById("message").innerText = "Thank you! Your download is ready.";
+        });
+    </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Buttons</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        /* Social Media Buttons at the bottom */
+        .social-icons {
+            display: flex;
+            gap: 0px;
+            position: fixed;
+            bottom: 20px;
+        }
+
+        .social-icons a {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Social Media Buttons at the Bottom -->
+    <div class="social-icons">
+        <!-- Instagram Button -->
+        <a href="https://www.instagram.com/carguy_poster?igsh=N3VoMG5jNnF0bmdw" target="_blank">
+            <img src="vecteezy_instagram-logo-png-instagram-icon-transparent_18930415.png" alt="Instagram">
+        </a>
+
+        <!-- TikTok Button -->
+        <a href="https://www.tiktok.com/@carguy_poster?_t=ZN-8u782t8Xep4&_r=1" target="_blank">
+            <img src="vecteezy_tiktok-logo-png-tikok-icon-transparent-png-tikok-app-logo-png_18930463.png" alt="TikTok">
+        </a>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR GUY Posters</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS User ID
+        })();
+    </script>
+    <style>
+        body {
+            font-family: serif, sans-serif;
+            text-align: center;
+            background-color: #fffdd0;
+            color: #654321;
+            padding: 20px;
+        }
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        .social-icons img {
+            width: 50px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        form {
+            background: #654321;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: none;
+            
+        }
+        button {
+            background: #fffdd0;
+            color: #654321;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Get Your Poster Link!</h2>
+    <form id="posterForm">
+        <input type="email" id="userEmail" placeholder="Enter your email" required>
+        <button type="submit">Get Poster</button>
+    </form>
+    
+
+
+    <script>
+        emailjs.init("JQ0E9ailo5YvFsXuF"); // Replace with your actual EmailJS Public Key
+        document.getElementById("posterForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var userEmail = document.getElementById("userEmail").value;
+            
+            emailjs.send("service_yawkmqe", "template_yvcf5sb", {
+                to_email: userEmail,
+                poster_link: "https://drive.google.com/file/d/1vaKCVnz-H2jKdHwc8BGg_m0aHtMK8fxP/view?usp=sharing" // Replace with your actual poster link
+            })
+            .then(function(response) {
+                alert("Poster link sent to " + userEmail);
+            }, function(error) {
+                alert("Failed to send email. Try again.");
+            });
+        });
+    </script>
+</body>
+</html>
